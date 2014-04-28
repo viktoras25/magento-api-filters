@@ -1,0 +1,24 @@
+{
+    "name": "charnad/magento-api-filters",
+    "type": "library",
+    "description": "",
+    "version": "0.1.0",
+    "keywords": ["magento", "api"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Viktoras Bezaras",
+        "email": "charnad@gmail.com",
+        "homepage": "https://github.com/charnad"
+    }],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MagentoFilters": "src/"
+        }
+    }
+}
