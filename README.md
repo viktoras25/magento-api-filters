@@ -2,6 +2,7 @@ Magento Filters
 =====
 
 [![Build Status](https://secure.travis-ci.org/charnad/magento-api-filters.png)](http://travis-ci.org/charnad/magento-api-filters)
+
 So using Magento API v2 can sometimes be a pain. Especially when you need to write complex filters. One way is to read and understand WSDL file. Another is to use this library.
 
 There are two types of filters: simple and complex. Simple filter does not contain condition, implying always 'eq'. Complex filter does contain condition.
